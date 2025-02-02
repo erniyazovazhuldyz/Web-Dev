@@ -1,0 +1,225 @@
+body{
+    background-color: #f2f4f7;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    max-width: 980px;
+
+
+}
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+/* .content__welcome {
+    padding: 112px 0 16px; 
+}*/
+
+.content__logo{
+    padding: 112px 0 16px;
+}
+.content__logo img{
+    height: 106px;
+    margin: -28px;
+}
+.content__text {
+    font-size: 28px;
+    font-weight: normal;
+    padding: 0 0 20px;
+}
+/* .content__form {
+    
+} */
+.form__top {
+    background-color: #fff;
+    margin-top: 40px;
+    width: 396px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__inner {
+    position: relative;
+
+}
+.form__input{
+    padding: 6px 0;
+}
+.form__email{
+    padding-top: 0px;
+}
+.form__input input{
+    border-radius: 6px;
+    border: #dddfe2 1px solid;
+    color: #1d2129;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 330px;
+    height: 20.4px;
+}    
+.form__input input:focus{
+    border-color: #0866ff;
+    outline: none;
+    caret-color: #0866ff;
+    
+}
+
+/* .form__input input::placeholder{
+    color:#
+} */
+.form__button {
+    
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    
+
+
+
+}
+.form__buttongreen{
+    padding: 6px 0 0 0;
+}
+.button__blue {
+    background-color: #0866ff;
+    width: 364px;
+    font-size: 20px;
+}
+.button__blue:hover{
+    background-color: #3578E5;
+    cursor: pointer;
+}
+.form__forgot {
+    margin: 16px 0 0;
+}
+.form__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #0866ff;
+    
+}
+.form__link:hover{
+    text-decoration: underline;
+}
+.form__line {
+    margin: 20px 16px;
+    border-top: #dadde1 1px solid;
+    width: 364px;
+}
+
+.button__green {
+    margin-top: 0px;
+    background-color: #42b72a;
+    width: 192.61px;
+    font-size: 17px;
+    
+}
+.button__green:hover{
+    background-color: #00A400;
+    cursor: pointer;
+}
+.form__bottom {
+    margin: 28px 0 0;
+    text-align: center;
+    color: #1c1e21;
+    font-size: 14px;
+}
+/* .form__text {
+} */
+.form__text__bold {
+    color: #1c1e21;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form__text__bold:hover{
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #fff; 
+    padding: 20px 0;
+}
+.footer__container{
+    margin: 0 auto;
+    max-width: 980px;
+}
+.footer__languages {
+    font-size: 12px;
+    color: #8a8d91;
+
+}
+.footer__list{
+    padding: 8px 0 0 0;
+    margin: 0;
+}
+.footer__list li{
+    display: inline-block;
+    list-style: none;
+}
+.footer__list a{
+    text-decoration: none;
+    color: #8a8d91;
+    padding-left: 10px;
+}
+.footer__list a:hover{
+    text-decoration: underline;
+}
+.footer__otherlang {
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/y4/r/K8x9_ypArDA.png");
+    background-repeat: no-repeat;
+    width: 29.6px;
+    height: 19.6px;
+    background-position: 63%, 90%;
+}
+.footer__otherlang button{
+    border: 0.1px solid #ccd0d5;
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/y4/r/K8x9_ypArDA.png");
+    background-repeat: no-repeat;
+    width: 29.6px;
+    height: 19.6px;
+    background-position: 63% 90%;
+}
+.footer__line {
+    border-top: 1px solid #dadde1;
+    margin: 10px 0 8px 0;
+    width: 100%;
+}
+.footer__navigation{
+    padding-left: 0;
+    margin: 0;
+}
+.footer__navlist{
+    margin: 0 0 0 -20px;
+    padding: 0;
+}
+.footer__navigation a{
+    color: #8a8d91;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer__navigation li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+.footer__copyright {
+    color: #737373;
+    font-size: 11px;
+    margin-top: 20px;
+}
