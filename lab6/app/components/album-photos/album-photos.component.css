@@ -1,0 +1,23 @@
+.photo-gallery {
+    text-align: center;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .photo-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
