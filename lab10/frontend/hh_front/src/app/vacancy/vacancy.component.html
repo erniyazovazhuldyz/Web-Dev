@@ -1,0 +1,12 @@
+<hr>
+<h1>Vacancies</h1>
+
+
+<h3 *ngIf="!loaded">Loading...</h3>
+<ul *ngIf="loaded">
+  <li *ngFor="let vacancy of vacancies">
+    <h2>{{vacancy.name}}</h2>
+    <p>{{vacancy.description}}</p>
+    <p><strong>Salary: </strong> {{vacancy.salary}} </p>
+    </li>
+</ul>
